@@ -1,0 +1,73 @@
+.left {
+  width: 240px;
+  height: 100vh;
+  background-color: $black;
+
+  .info {
+    background-color: $black;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid $black-border;
+
+    &:hover {
+      background-color: $hover-bg-info;
+    }
+
+    h1 {
+      padding: 20px;
+      color: $white;
+      font-weight: bold;
+    }
+  }
+
+  .categories {
+    margin-top: 20px;
+
+    a {
+      color: $channel;
+      text-decoration: none;
+    }
+
+    .category {
+      margin: 20px 10px;
+      color: $channel;
+
+      summary {
+        padding: 5px 0;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+          color: $hover-grey;
+        }
+      }
+    }
+  }
+
+  .channel {
+    display: flex;
+    padding: 7px 0;
+    margin: 1px 0 2px 0;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover {
+      color: white;
+      background-color: $hover-bg-channel;
+    }
+
+    .hashtag {
+      width: 15px;
+      margin: 0 5px 0 15px;
+    }
+
+    &_active {
+      background-color: $hover-bg-channel;
+      color: $white;
+    }
+  }
+}
