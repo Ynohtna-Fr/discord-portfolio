@@ -2,17 +2,30 @@
   width: 240px;
   height: 100vh;
   background-color: $black;
+  overflow-y: scroll;
+  overflow-x: hidden;
 
   .info {
-    background-color: $black;
-    height: 50px;
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 50px;
     border-bottom: 1px solid $black-border;
+    background-color: $black;
+    z-index: 100;
 
-    &:hover {
-      background-color: $hover-bg-info;
+    .layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      &:hover {
+        background-color: $hover-bg-info;
+      }
     }
 
     h1 {

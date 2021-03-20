@@ -57,20 +57,44 @@ body {
   color: #fff;
 }
 
+.emoji-s {
+  height: 22px;
+}
+
+.emoji-b {
+  height: 48px;
+}
+
+a {
+  color: #00b0f4;
+}
+
 .left {
   width: 240px;
   height: 100vh;
   background-color: #2F3136;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .left .info {
-  background-color: #2F3136;
-  height: 50px;
+  position: sticky;
+  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 50px;
   border-bottom: 1px solid #222427;
+  background-color: #2F3136;
+  z-index: 100;
 }
-.left .info:hover {
+.left .info .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.left .info .layer:hover {
   background-color: rgba(79, 92, 82, 0.16);
 }
 .left .info h1 {

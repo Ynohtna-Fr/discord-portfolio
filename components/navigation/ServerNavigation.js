@@ -12,8 +12,8 @@ export default function ServerNavigation () {
       <div className="categories">
         <ServerCategory name="╔▬▬ Acceuil ▬▬╗" >
           <ServerChannel channelName="📢》nouveautées" link="news" navigation={navigation} setNavigation={setNavigation}/>
-          <ServerChannel channelName="》pourquoi-discord" link="why-discord" navigation={navigation} setNavigation={setNavigation} />
-          <ServerChannel channelName="》me contacter" link="contact" navigation={navigation} setNavigation={setNavigation} />
+          <ServerChannel channelName="》pourquoi-discord" link="whyDiscord" navigation={navigation} setNavigation={setNavigation} />
+          <ServerChannel channelName="》me-contacter" link="contact" navigation={navigation} setNavigation={setNavigation} />
         </ServerCategory>
 
         <ServerCategory name="╔▬▬ A propos de moi ▬▬╗" >
@@ -30,8 +30,8 @@ export default function ServerNavigation () {
         </ServerCategory>
 
         <ServerCategory name="╔▬▬ Objectifs ▬▬╗" >
-          <ServerChannel channelName="》objectifs-2020" link="goal-2020" navigation={navigation} setNavigation={setNavigation} />
-          <ServerChannel channelName="》objectifs-2021" link="goal-2021" navigation={navigation} setNavigation={setNavigation} />
+          <ServerChannel channelName="》objectifs-2020" link="goal2020" navigation={navigation} setNavigation={setNavigation} />
+          <ServerChannel channelName="》objectifs-2021" link="goal2021" navigation={navigation} setNavigation={setNavigation} />
         </ServerCategory>
       </div>
     </div>
