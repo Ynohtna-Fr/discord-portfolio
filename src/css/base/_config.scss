@@ -14,3 +14,46 @@ $hashtag-bg: #4F545C;
 $link: #00b0f4;
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;700;900&display=swap');
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+@mixin xs-breakpoint() {
+  @media (min-width: $xs) {
+    @content;
+  }
+}
+
+@mixin sm-breakpoint() {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin md-breakpoint() {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin lg-breakpoint() {
+  @media (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin xl-breakpoint() {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+
+@mixin xxl-breakpoint() {
+  @media (min-width: $xl) {
+    @content;
+  }
+}

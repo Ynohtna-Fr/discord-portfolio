@@ -37,7 +37,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      max-width: 10%;
+      max-width: 125px;
       width: 100%;
 
       img {
@@ -49,7 +49,7 @@
   .content_room {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     height: calc(100% - 125px);
     overflow: hidden scroll;
 
@@ -58,10 +58,14 @@
       flex-direction: column;
       padding-bottom: 20px;
       margin: 0 20px;
-      height: 130px;
+      height: 140px;
       justify-content: space-between;
       border-bottom: 1px solid $border-default-message;
       color: $white;
+
+      @include md-breakpoint() {
+        height: 130px;
+      }
 
       div {
         width: 70px;
@@ -80,9 +84,13 @@
       }
 
       h2 {
-        font-size: 30px;
+        font-size: 22px;
         color: $white;
         font-weight: bold;
+
+        @include md-breakpoint() {
+          font-size: 30px;
+        }
       }
 
       p {
@@ -150,7 +158,8 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-      width: 10%;
+      max-width: 125px;
+      width: 100%;
 
       img {
         height: 20px;
