@@ -146,6 +146,8 @@ a {
 .right {
   width: calc(100vw - 240px);
   background-color: #36393F;
+  height: 100vh;
+  overflow: hidden;
 }
 .right .content {
   display: flex;
@@ -187,6 +189,7 @@ a {
   flex-direction: column-reverse;
   margin-bottom: 20px;
   height: calc(100% - 125px);
+  overflow: hidden scroll;
 }
 .right .content_room--default {
   display: flex;

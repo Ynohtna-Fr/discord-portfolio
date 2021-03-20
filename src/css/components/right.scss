@@ -1,6 +1,8 @@
 .right {
   width: calc(100vw - 240px);
   background-color: $grey;
+  height: 100vh;
+  overflow: hidden;
 
   .content {
     display: flex;
@@ -49,6 +51,7 @@
     flex-direction: column-reverse;
     margin-bottom: 20px;
     height: calc(100% - 125px);
+    overflow: hidden scroll;
 
     &--default {
       display: flex;
