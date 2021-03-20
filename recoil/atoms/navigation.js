@@ -7,3 +7,8 @@ export const navigationState = atom({
     name: '》pourquoi-discord'
   }
 })
+
+export const burgerMenuState = atom({
+  key: 'burgerMenuState',
+  default: false
+})

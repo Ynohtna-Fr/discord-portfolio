@@ -1,8 +1,24 @@
+import { useSetRecoilState } from 'recoil'
+import { burgerMenuState } from '../../recoil/atoms/navigation'
+
 export default function ChannelHeader ({ channelName }) {
+  const setBurgerOpen = useSetRecoilState(burgerMenuState)
+
+  const handleClick = () => {
+    const leftSide = document.querySelector('.left')
+    const rightSide = document.querySelector('.right')
+    const rightSideContent = document.querySelector('.right .content')
+    leftSide.classList.add('show')
+    rightSide.style.backgroundColor = 'black'
+    rightSideContent.style.opacity = 0.5
+    setBurgerOpen(true)
+  }
+
   return (
     <div className="content_header">
       <div className="content_header--name">
-        <img src="/img/hashtag.svg"/>
+        <img src="/img/burger.svg" className="burger" alt="Afficher le menu" onClick={() => handleClick()}/>
+        <img src="/img/hashtag.svg" className="hashtag"/>
         <h2>{ channelName }</h2>
       </div>
       <div className="content_header--icons">

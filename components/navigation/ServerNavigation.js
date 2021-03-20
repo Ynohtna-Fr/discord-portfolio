@@ -4,11 +4,11 @@ import ServerChannel from './ServerChannel'
 import { useRecoilState } from 'recoil'
 import { navigationState } from '../../recoil/atoms/navigation'
 
-export default function ServerNavigation () {
+export default function ServerNavigation ({ leftSide }) {
   const [navigation, setNavigation] = useRecoilState(navigationState)
   return (
     <div className="navigation">
-      <ServerInfo />
+      <ServerInfo leftSide={leftSide}/>
       <div className="categories">
         <ServerCategory name="╔▬▬ Acceuil ▬▬╗" >
           <ServerChannel channelName="📢》nouveautées" link="news" navigation={navigation} setNavigation={setNavigation}/>
