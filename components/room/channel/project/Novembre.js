@@ -6,7 +6,7 @@ export default function Novembre ({ name }) {
       <ChannelDefaultMessage name={ name } description="L'agence, pas le mois"/>
       <ChannelMessage author="Anthony Adam" date="Hier à 08:39" >
         <div>
-          <p className="underline">En alternance chez Novembre pour ma deuxième année, j'ai pus travailler sur de nombreux projets, en voici quelque-un ou j'ai participé !</p>
+          <p className="underline">En alternance chez Novembre pour ma deuxième année, j'ai pu travailler sur de nombreux projets, en voici quelque-un ou j'ai participé !</p>
           <br/>
           <ul>
             <li><span className="bold">Immium</span> - Agence immobilière <span className="italic">(Refonte de la page d'accueil et des biens)</span> <a href="https://www.immium.com/" target="_BLANK">🔗</a></li>

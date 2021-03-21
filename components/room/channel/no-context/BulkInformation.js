@@ -5,7 +5,7 @@ import 'tippy.js/dist/tippy.css';
 export default function BulkInformation ({ name }) {
   return (
     <div>
-      <ChannelDefaultMessage name={name} description="Ne tenez pas rigueur de ce qu'il y'a ici j'suis en roue libre"/>
+      <ChannelDefaultMessage name={name} description="Ne tenez pas rigueur de ce qu'il y'a ici je suis en roue libre"/>
       <ChannelMessage author="Anthony Adam" date="Hier à 08:39">
         <div>
           <p className="underline">Vous en voulez encore ? Voici quelques trucs en vrac me concernant :</p>
@@ -25,7 +25,7 @@ export default function BulkInformation ({ name }) {
           <br/>
           <p>J'adore l'<span className="bold">économie</span>, mais je suis surtout passionné de <span className="bold">réalité virtuelle et augmenter</span>.</p>
           <br/>
-          <p>Je me suis déjà fait interviewer au Etats-Unis quand la france à gagner la coupe du monde, c'était drole.</p>
+          <p>Je me suis déjà fait interviewer aux États-Unis quand la France à gagner la coupe du monde, c'était drôle.</p>
           <br/>
           <p>Au départ je voulais faire un site CV moche, mais je me suis rendu compte qu'il fallait quand même des compétences en design pour faire des trucs moches.</p>
           <br/>

@@ -6,7 +6,7 @@ export default function Skills ({ name }) {
       <ChannelDefaultMessage name={ name } description="Des compétences de compétition"/>
       <ChannelMessage author="Anthony Adam" date="Hier à 08:39" >
         <div>
-          <h2>J'ai eu la chance de pouvoir travailler avec de <span className="bold">nombreux outils</span>, en voici quelques un :</h2>
+          <h2>J'ai eu la chance de pouvoir travailler avec de <span className="bold">nombreux outils</span>, en voici quelques-uns :</h2>
           <br/>
           <div className="skills">
             <ul>
@@ -23,7 +23,7 @@ export default function Skills ({ name }) {
             <ul>
               <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> Les librairies CSS</span> : <img
                 src="/img/emoji/bootstrap.png" alt="Icon Bootstrap" className="emoji-s"/> <span className="italic">(même la V5 !)</span> / FlexBoxGrid2</li>
-              <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> J'ai aussi pus toucher un peu à</span> : <img
+              <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> J'ai aussi pu toucher un peu à</span> : <img
                 src="/img/emoji/vue.png" alt="Icon VueJs" className="emoji-s"/> / <img src="/img/emoji/adonis.png" alt="Icon AdonisJS" className="emoji-s"/> <span className="italic">(AdonisJs)</span> / <img
                 src="/img/emoji/tailwindcss.png" alt="Icon Tailwind CSS" className="emoji-s"/> <span className="italic">(TailwindCss)</span></li>
               <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> Les autres</span> : Suite office / XD / suite Adob</li>
