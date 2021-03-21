@@ -1,0 +1,33 @@
+.profile-img {
+  width: 75%;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  ul:first-child {
+    padding-right: 50px;
+    margin-bottom: 20px;
+
+    @include sm-breakpoint {
+      margin-bottom: unset;
+    }
+  }
+}
+.parcours {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  div {
+    margin: 10px 0;
+  }
+
+  div:first-child {
+    @include sm-breakpoint {
+      width: 420px;
+    }
+  }
+}

@@ -11,6 +11,14 @@ body {
   color: $white;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .emoji-s {
   height: 22px;
 }
@@ -25,4 +33,9 @@ a {
 
 .show {
   display: block !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }

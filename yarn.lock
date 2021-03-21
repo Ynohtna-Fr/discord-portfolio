@@ -949,6 +949,18 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
+"@popperjs/core@^2.8.3":
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.1.tgz#7f554e7368c9ab679a11f4a042ca17149d70cf12"
+  integrity sha512-DvJbbn3dUgMxDnJLH+RZQPnXak1h4ZVYQ7CWiFWjQwBFkVajT4rfw2PdpHLTSTwxrYfnoEXkuBiwkDm6tPMQeA==
+
+"@tippyjs/react@^4.2.4":
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@tippyjs/react/-/react-4.2.4.tgz#b4ff76a19e3805a170c166377c8ff124cc045749"
+  integrity sha512-reg/57H/HTrMnu5kkaUMqm5o4242iZw6qEmumCk+BvwJVI+B8JMlSa23MYmS4jTCQauDhTuGivdt+EO+Tt3DQA==
+  dependencies:
+    tippy.js "^6.3.1"
+
 "@types/babel-core@^6.25.6":
   version "6.25.6"
   resolved "https://registry.yarnpkg.com/@types/babel-core/-/babel-core-6.25.6.tgz#9e4faefcb300fd3abf0d2c2d85c505071462c1e1"
@@ -6463,6 +6475,13 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tippy.js@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-6.3.1.tgz#3788a007be7015eee0fd589a66b98fb3f8f10181"
+  integrity sha512-JnFncCq+rF1dTURupoJ4yPie5Cof978inW6/4S6kmWV7LL9YOSEVMifED3KdrVPEG+Z/TFH2CDNJcQEfaeuQww==
+  dependencies:
+    "@popperjs/core" "^2.8.3"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
