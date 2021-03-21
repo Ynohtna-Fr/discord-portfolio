@@ -8,31 +8,25 @@ const handleTextChange = (e, setText) => {
 const handleKeyPress = async (e, text, setText) => {
   if (e.key !== 'Enter') return false
   if (text.length < 10) return false
-  await sendMessage(text, setText)
+  sendMessage(text, setText)
 }
 
 const handleSendClick = async (text, setText) => {
   if (text.length < 10) return false
-  await sendMessage(text, setText)
+  sendMessage(text, setText)
 }
 
-const sendMessage = async (text, setText) => {
-  console.log('jean')
-  const encodedParams = new URLSearchParams();
-
-  encodedParams.set('content', text)
-  const result = await fetch('https://discord.com/api/webhooks/823198705099866172/EBZUPYrgYS99su8vviT2xepl0CAp-YA1vY4YUv_hZ7nMQNuNl-hbQB9R8ikYf6U8Ao9i', {
-    method: 'POST',
-    body: {
-      content: encodedParams
-    }
+const sendMessage = (text, setText) => {
+  const message = {"content": text}
+  fetch('https://discord.com/api/webhooks/823198705099866172/EBZUPYrgYS99su8vviT2xepl0CAp-YA1vY4YUv_hZ7nMQNuNl-hbQB9R8ikYf6U8Ao9i', {
+    "method": 'POST',
+    "headers": {
+      'Content-Type': 'application/json'
+    },
+    "body": JSON.stringify(message)
+  }).then(response => {
+    console.log(response)
   })
-  console.log(result)
-  if (result.status === 204) {
-    setText('')
-  } else {
-    //throw error
-  }
 }
 
 export default function ChannelInput ({path}) {
