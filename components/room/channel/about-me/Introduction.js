@@ -13,7 +13,7 @@ export default function Introduction ({ name }) {
         <div>
           <p><img src="/img/emoji/hello.gif" className="emoji-s" alt=""/> Hello ! </p><br/>
           <p>Je m'appelle Anthony Adam et j'ai 20 ans. <span className="bold">Passionné d'informatique depuis petit</span>, je crée des trucs et fais des choses.
-            Principalement accès sur le développement web, mais également les applications mobiles. 👨‍💻</p>
+            Principalement axé sur le développement web, mais également les applications mobiles. 👨‍💻</p>
           <br/>
           <p>J'ai commencé par apprendre le développement web quand j'étais en <span className="bold"> 5ème en autodidacte</span> <span className="italic"> (c'était encore le site du zéro à l'époque !)</span>. <br/>
             Maintenant je suis en <span className="bold">2ème année de MMI</span> <span className="italic">(Métier du multimédia et de l'internet)</span> à Haguenau en Alsace <span className="italic">(choucroute et bretzel n'ont plus de secrets pour moi)</span> spécialisé dans le développement web.
