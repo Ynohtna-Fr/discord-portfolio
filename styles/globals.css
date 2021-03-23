@@ -86,6 +86,12 @@ a {
   height: auto;
 }
 
+@media (min-width: 576px) {
+  .hidden-desk {
+    display: none;
+  }
+}
+
 .left {
   display: none;
   width: 240px;
