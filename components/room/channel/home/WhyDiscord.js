@@ -34,7 +34,7 @@ export default function WhyDiscord ({ name }) {
             Vous pouvez trouver le code source sur ce <a href="https://github.com/Ynohtna-Fr/discord-portfolio">repo github</a></p>
           <div className="hidden-desk">
             <br/>
-            <p>Ouvez le menu pour naviguer sur le site ! <a onClick={() => handleClick()}>(ou cliquez ici)</a></p>
+            <p>Ouvrez le menu pour naviguer sur le site ! <a onClick={() => handleClick()}>(ou cliquez ici)</a></p>
           </div>
         </div>
       </ChannelMessage>
