@@ -31,8 +31,8 @@ a {
   color: $link;
 }
 
-.show {
-  display: block !important;
+.show-nav {
+  transform: translateX(0) !important;
 }
 
 .img-fluid {

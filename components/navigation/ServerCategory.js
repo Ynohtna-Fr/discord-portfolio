@@ -1,4 +1,3 @@
-import ServerChannel from './ServerChannel'
 
 export default function ServerCategory ( props ) {
   return (

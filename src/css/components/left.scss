@@ -1,5 +1,4 @@
 .left {
-  display: none;
   width: 240px;
   height: 100vh;
   position: absolute;
@@ -9,10 +8,14 @@
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 105;
+  transition-property: transform;
+  transition-duration: 1s;
+  transform: translateX(-240px);
 
   @include sm-breakpoint() {
     display: unset;
     position: unset;
+    transform: unset;
   }
 
   .info {
@@ -45,15 +48,17 @@
     }
 
     #close {
-      color: $white;
-      font-size: 20px;
       position: absolute;
-      top: 13px;
+      top: 15px;
       right: 20px;
       cursor: pointer;
 
       @include sm-breakpoint () {
         display: none;
+      }
+
+      img {
+        height: 20px;
       }
     }
   }
