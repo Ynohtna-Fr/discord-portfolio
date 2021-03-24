@@ -46,7 +46,7 @@ export default function ChannelContent () {
     const leftSide = document.querySelector('.left')
     const rightSideContent = document.querySelector('.right .content')
     const rightSide = document.querySelector('.right')
-    leftSide.classList.remove('show')
+    leftSide.classList.remove('show-nav')
     rightSide.style.backgroundColor = 'unset'
     rightSideContent.style.opacity = 1
     setBurgerOpen(false)

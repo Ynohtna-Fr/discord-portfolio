@@ -10,7 +10,7 @@ export default function WhyDiscord ({ name }) {
     const leftSide = document.querySelector('.left')
     const rightSide = document.querySelector('.right')
     const rightSideContent = document.querySelector('.right .content')
-    leftSide.classList.add('show')
+    leftSide.classList.add('show-nav')
     rightSide.style.backgroundColor = 'black'
     rightSideContent.style.opacity = 0.5
     setBurgerOpen(true)

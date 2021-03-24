@@ -77,8 +77,8 @@ a {
   color: #00b0f4;
 }
 
-.show {
-  display: block !important;
+.show-nav {
+  transform: translateX(0) !important;
 }
 
 .img-fluid {
@@ -93,7 +93,6 @@ a {
 }
 
 .left {
-  display: none;
   width: 240px;
   height: 100vh;
   position: absolute;
@@ -103,11 +102,15 @@ a {
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 105;
+  transition-property: transform;
+  transition-duration: 1s;
+  transform: translateX(-240px);
 }
 @media (min-width: 576px) {
   .left {
     display: unset;
     position: unset;
+    transform: unset;
   }
 }
 .left .info {
@@ -137,10 +140,8 @@ a {
   font-weight: bold;
 }
 .left .info #close {
-  color: #fff;
-  font-size: 20px;
   position: absolute;
-  top: 13px;
+  top: 15px;
   right: 20px;
   cursor: pointer;
 }
@@ -148,6 +149,9 @@ a {
   .left .info #close {
     display: none;
   }
+}
+.left .info #close img {
+  height: 20px;
 }
 .left .categories {
   margin-top: 20px;
