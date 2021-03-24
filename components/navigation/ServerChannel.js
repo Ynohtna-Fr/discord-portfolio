@@ -3,6 +3,10 @@ const handleClick = (channelName, link, setNavigation) => {
     'path': link,
     'name': channelName
   })
+  setTimeout(() => {
+    const content = document.querySelector('.content_room')
+    content.scrollTop = 0 - content.scrollHeight
+  }, 250)
 }
 
 export default function ServerChannel ({ channelName, link, navigation, setNavigation, menuHandler}) {

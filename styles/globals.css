@@ -44,6 +44,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .home {
   display: flex;
 }
@@ -265,7 +269,7 @@ a {
 .right .content_room--default {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
+  padding: 20px 0;
   margin: 0 20px;
   height: 140px;
   justify-content: space-between;
