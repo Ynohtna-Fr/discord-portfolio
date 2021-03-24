@@ -70,9 +70,15 @@ export default function ChannelInput ({path}) {
             <p>Vous ne pouvez envoyer de message</p>
           </div>
           <div className="input_box--icons">
-            <img src="/img/linkedin.svg" alt=""/>
-            <img src="/img/github.svg" alt=""/>
-            <img src="/img/tel.svg" alt=""/>
+            <a href="https://www.linkedin.com/in/anthony-adam/" target="_BLANK">
+              <img src="/img/linkedin.svg"/>
+            </a>
+            <a href="https://github.com/Ynohtna-Fr" target="_BLANK">
+              <img src="/img/github.svg"/>
+            </a>
+            <a href="tel:0652728018">
+              <img src="/img/tel.svg"/>
+            </a>
           </div>
         </div>
       </div>
