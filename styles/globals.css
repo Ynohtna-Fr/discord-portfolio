@@ -258,6 +258,11 @@ a {
 }
 .right .content_header--icons img {
   height: 20px;
+  padding: 5px;
+}
+.right .content_header--icons img:hover {
+  background-color: #43454B;
+  border-radius: 5px;
 }
 .right .content_room {
   display: flex;
@@ -378,6 +383,11 @@ a {
 }
 .right .content_input .input_box--icons img {
   height: 20px;
+  padding: 5px;
+}
+.right .content_input .input_box--icons img:hover {
+  background-color: rgba(79, 92, 82, 0.34);
+  border-radius: 5px;
 }
 
 .profile-img {
