@@ -359,6 +359,9 @@ a {
   color: white;
   font-size: 15px;
 }
+.right .content_input .input_box--left p {
+  opacity: 0.5;
+}
 .right .content_input .input_box--left .send {
   cursor: pointer;
 }
