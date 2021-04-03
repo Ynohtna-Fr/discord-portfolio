@@ -26,7 +26,7 @@ export default function Skills ({ name }) {
               <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> J'ai aussi pu toucher un peu à</span> : <img
                 src="/img/emoji/vue.png" alt="Icon VueJs" className="emoji-s"/> / <img src="/img/emoji/adonis.png" alt="Icon AdonisJS" className="emoji-s"/> <span className="italic">(AdonisJs)</span> / <img
                 src="/img/emoji/tailwindcss.png" alt="Icon Tailwind CSS" className="emoji-s"/> <span className="italic">(TailwindCss)</span></li>
-              <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> Les autres</span> : Suite office / XD / suite Adob</li>
+              <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> Les autres</span> : Suite office / XD / suite Adobe</li>
             </ul>
           </div>
         </div>

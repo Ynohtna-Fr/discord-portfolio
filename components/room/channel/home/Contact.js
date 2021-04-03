@@ -18,6 +18,7 @@ export default function Contact ({ name }) {
           {sendStatus?.error ? <p>{sendStatus.error}</p> : sendStatus === null ? '' : <div><img src="/img/victory.gif" className="img-fluid" alt="Gif Félicitation"/><br/><p><span className="bold">YAHOUUUUUUUU C'est envoyé !</span> J'espère que vous n'avez pas oublié de mettre votre mail ou votre numéro de téléphone !</p></div>}
         </div>
       </ChannelMessage>
+
     </div>
   )
 }

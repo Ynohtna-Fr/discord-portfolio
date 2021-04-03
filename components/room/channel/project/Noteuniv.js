@@ -26,7 +26,7 @@ export default function Noteuniv ({ name }) {
           </p>
           <br/>
           <p className="italic">Vous pouvez retrouver le code source de NoteUniv sur ce repo Github <a href="https://github.com/NoteUniv">https://github.com/NoteUniv</a> et le lien vers la vidéo de présentation ici : <a
-            href="http://hacketafac.unistra.fr/projects/noteuniv/Noteuniv.js">http://hacketafac.unistra.fr/projects/noteuniv/</a></p>
+            href="http://hacketafac.unistra.fr/projects/noteuniv">http://hacketafac.unistra.fr/projects/noteuniv/</a></p>
         </div>
       </ChannelMessage>
     </div>
