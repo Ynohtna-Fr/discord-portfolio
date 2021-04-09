@@ -4,6 +4,7 @@ import ServerChannel from './ServerChannel'
 import { useRecoilState, useSetRecoilState } from 'recoil'
 import { navigationState } from '../../recoil/atoms/navigation'
 import { burgerMenuState } from '../../recoil/atoms/navigation'
+import ServerLegals from "./ServerLegals";
 
 export default function ServerNavigation () {
   const [navigation, setNavigation] = useRecoilState(navigationState)
@@ -53,6 +54,7 @@ export default function ServerNavigation () {
           <ServerChannel channelName="🥚》easter-eggs" link="easterEggs" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>
         </ServerCategory>
       </div>
+      <ServerLegals />
     </div>
   )
 }
