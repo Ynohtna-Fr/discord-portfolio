@@ -13,7 +13,7 @@ export default function Goal2021 ({ name }) {
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Refaire mon CV en ligne <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Approfondir React</li>
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Pousser DiscAds en production</li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Partir à Lemnos <span className="italic">(Plus connu sous le nom d'Atlis)</span></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Partir à Lemnos <span className="italic">(Plus connu sous le nom d'Altis)</span></li>
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Apprendre Three.Js </li>
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Rester en vie <span className="italic">(Covid tout ça tout ça)</span> </li>
           </ul>
