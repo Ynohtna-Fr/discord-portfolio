@@ -3,7 +3,7 @@ export default function Legals () {
         <div className="legalsPage">
             <div>
             <h1>En vrai c'est un peu chiant ici, c'est les mentions légales.</h1>
-            <p>Vous n'êtes pas obligé de tout lire, mais si vous décider de le faire, sachez qu'une longue route vous attend. Bonne chance dans votre aventure mousallions !</p>
+            <p>Vous n'êtes pas obligé de tout lire, mais si vous décider de le faire, sachez qu'une longue route vous attend. Bonne chance dans votre aventure moussaillons !</p>
             </div>
             <br/><br/>
             <p>Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance des Utilisateurs du site https://anthony-adam.fr les présentes mentions légales.
@@ -28,11 +28,11 @@ export default function Legals () {
 
             <h2>ARTICLE 4 : Collecte des données</h2>
 
-            <p>Le site est exempté de déclaration à la Commission Nationale Informatique et Libertés (CNIL) dans la mesure où il ne collecte aucune donnée concernant les utilisateurs. <em>(Ouai j'suis comme ça, me remercier pas !)</em></p>
+            <p>Le site est exempté de déclaration à la Commission Nationale Informatique et Libertés (CNIL) dans la mesure où il ne collecte aucune donnée concernant les utilisateurs. <em>(Ouais j'suis comme ça, me remercier pas !)</em></p>
 
             <h2>ARTICLE 6 : Propriété intellectuelle</h2>
 
-            <p>J'ai copié discord <em>(pas le code)</em>, donc ce serait l'hôpital qui se fout de la charité de vous dire de ne pas copier ! Par contre, le code lui reste protégé <em>(mais rien ne vous empêche de changer 2-3 classes pour passer inaperçu ;) )</em></p>
+            <p>J'ai copié Discord <em>(pas le code)</em>, donc ce serait l'hôpital qui se fout de la charité de vous dire de ne pas copier ! Par contre, le code lui reste protégé <em>(mais rien ne vous empêche de changer 2-3 classes pour passer inaperçu ;) )</em></p>
         </div>
     )
 }

@@ -24,8 +24,8 @@ export default function ServerNavigation () {
     <div className="navigation">
       <ServerInfo handler={handleBurger}/>
       <div className="categories">
-        <ServerCategory name="╔▬▬ Acceuil ▬▬╗" >
-          <ServerChannel channelName="📢》nouveautées" link="news" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>
+        <ServerCategory name="╔▬▬ Accueil ▬▬╗" >
+          <ServerChannel channelName="📢》nouveautés" link="news" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>
           <ServerChannel channelName="🤔》pourquoi-discord" link="whyDiscord" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>
           <ServerChannel channelName="📮》me-contacter" link="contact" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>
         </ServerCategory>

@@ -29,7 +29,7 @@ export default function Education ({ name }) {
           <br/>
           <ul>
             <li><img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/> <span className="italic">2015</span> - Brevet des collèges - mention "assez bien"</li>
-            <li><img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/> <span className="italic">2019</span> - Baccalauréat Economique & Social - Mention "Bien"</li>
+            <li><img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/> <span className="italic">2019</span> - Baccalauréat Économique & Social - Mention "Bien"</li>
           </ul>
         </div>
       </ChannelMessage>
