@@ -17,7 +17,7 @@ export default function Skills ({ name }) {
               <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> Les avancés</span> : <img
                 src="/img/emoji/sass.png" alt="icon SASS" className="emoji-s"/> / TWIG</li>
               <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt=""/><span className="underline"> Les framework/CMS</span> : <img
-                src="/img/emoji/symfony.png" alt="icno Symfony" className="emoji-s"/> / <img src="/img/emoji/wordpress.png" alt="icon Wordpress" className="emoji-s"/> / <img
+                src="/img/emoji/symfony.png" alt="icon Symfony" className="emoji-s"/> / <img src="/img/emoji/wordpress.png" alt="icon Wordpress" className="emoji-s"/> / <img
                 src="/img/emoji/react.png" alt="Icon React" className="emoji-s"/> <span className="italic">(Native / Js)</span></li>
             </ul>
             <ul>

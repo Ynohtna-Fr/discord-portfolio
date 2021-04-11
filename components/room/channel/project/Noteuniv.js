@@ -17,7 +17,7 @@ export default function Noteuniv ({ name }) {
             Divers outils sont à leurs dispositions pour leur éviter de perdre du temps et d'analyser leurs résultats.
             Finalement, c'est <span className="bold">l'équivalent d'un "ENT" ou de "Mon bureau numérique"</span>, mais fait par des étudiants pour des étudiants !
             <br/><br/>
-            Je fais ce projet avec l'aide d'un ami. Il s'occupe de toute la partie récupération de note en faisant du scraping python sur les PDF.
+            Je fais ce projet avec l'aide d'un ami. Il s'occupe de toute la partie récupération de notes en faisant du scraping Python sur les PDF.
             De mon côté je suis <span className="bold">en charge du site web et de l'application mobile</span>.
             <br/><br/>
             Nous avons présenter ce projet au <span className="bold">concours HackTaFac</span> de l'université de Strasbourg ou nous avons en final du jury.

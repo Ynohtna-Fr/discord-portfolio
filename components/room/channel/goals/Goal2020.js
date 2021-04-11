@@ -9,15 +9,15 @@ export default function Goal2020 ({ name }) {
           <p>Chaque année je fais une liste d'objectif pour l'année en cours. Voici mes objectifs 2020 !</p>
           <br/>
           <ul>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Continuer apprentissage Flutter <img src="/img/emoji/no_check.png" className="emoji-s" alt="emoji barré"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Commencer apprentissage base Vue.js <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Crée mon entreprise <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Approfondir Javascript <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Finir Lauréat HackTaFac <img src="/img/emoji/no_check.png" className="emoji-s" alt="emoji barré"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Crée une application pour NoteUniv <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Faire ma 2ème année en alternance <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Refaire mon CV en ligne <img src="/img/emoji/no_check.png" className="emoji-s" alt="emoji barré"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji epingle"/> Faire mon premier jeu vidéo mobile <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Continuer apprentissage Flutter <img src="/img/emoji/no_check.png" className="emoji-s" alt="emoji barré"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Commencer apprentissage base Vue.js <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Créer mon entreprise <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Approfondir Javascript <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Finir Lauréat HackTaFac <img src="/img/emoji/no_check.png" className="emoji-s" alt="emoji barré"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Créer une application pour NoteUniv <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Faire ma 2ème année en alternance <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Refaire mon CV en ligne <img src="/img/emoji/no_check.png" className="emoji-s" alt="emoji barré"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Faire mon premier jeu vidéo mobile <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
           </ul>
         </div>
       </ChannelMessage>

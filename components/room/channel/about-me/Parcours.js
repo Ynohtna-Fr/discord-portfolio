@@ -39,7 +39,7 @@ export default function Parcours ({ name }) {
             <img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/>
             <p className="bold">Lycée Heinrich Nessel</p>
             <p className="italic">2016-2019</p>
-            <p>Section Economique & Social - Mention "Bien"</p>
+            <p>Section Économique & Social - Mention "Bien"</p>
           </div>
         </div>
       </ChannelMessage>
@@ -49,7 +49,7 @@ export default function Parcours ({ name }) {
             <img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/>
             <p className="bold">DUT-MMI</p>
             <p className="italic">2019-2021</p>
-            <p>Métier du multimédia et de l'internet. <br/> Developpement Web, infographie, communication... </p>
+            <p>Métier du multimédia et de l'internet. <br/> Développement Web, infographie, communication... </p>
           </div>
           <div>
             <img src="/img/emoji/office_worker.svg" className="emoji-s" alt="emoji travailleur"/>
