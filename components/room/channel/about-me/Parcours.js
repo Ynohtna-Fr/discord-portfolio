@@ -2,6 +2,7 @@ import ChannelMessage from '../../ChannelMessage'
 import ChannelDefaultMessage from '../../ChannelDefaultMessage'
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
+
 export default function Parcours ({ name }) {
   return (
     <div>
