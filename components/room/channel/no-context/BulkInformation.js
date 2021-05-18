@@ -27,8 +27,8 @@ export default function BulkInformation ({ name }) {
           <br/>
           <p>Je me suis déjà fait interviewer aux États-Unis quand la France à gagner la coupe du monde, c'était drôle.</p>
           <br/>
-          <p>Au départ je voulais faire un site CV moche, mais je me suis rendu compte qu'il fallait quand même des compétences en design pour faire des trucs moches.</p>
-          <br/>
+          {/*<p>Au départ je voulais faire un site CV moche, mais je me suis rendu compte qu'il fallait quand même des compétences en design pour faire des trucs moches.</p>*/}
+          {/*<br/>*/}
           <p>Je connais le monologue d'Otis par cœur.</p>
           <br/>
           <p>Mon premier jeu vidéo était "Medal Of Honor: Débarquement Alliée". J'ai encore le CD chez moi !</p>
