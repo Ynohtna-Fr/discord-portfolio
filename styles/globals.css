@@ -398,6 +398,9 @@ a {
   background-color: rgba(79, 92, 82, 0.34);
   border-radius: 5px;
 }
+.right details summary .emoji-s {
+  margin-bottom: -6px;
+}
 
 .profile-img {
   width: 75%;

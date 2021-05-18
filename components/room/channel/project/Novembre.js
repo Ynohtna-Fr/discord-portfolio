@@ -9,10 +9,17 @@ export default function Novembre ({ name }) {
           <p className="underline">En alternance chez Novembre pour ma deuxième année, j'ai pu travailler sur de nombreux projets, en voici quelques-uns ou j'ai participé !</p>
           <br/>
           <ul>
-            <li><span className="bold">Immium</span> - Agence immobilière <span className="italic">(Refonte de la page d'accueil et des biens)</span> <a href="https://www.immium.com/" target="_BLANK">🔗</a></li>
-            <li><span className="bold">Cœur De Lion</span> - Alimentaire <span className="italic">(Mise à jour du jeu "qui à encore manger le cœur de lion" pour 2021 avec une nouvelle mécanique de jeu)</span> <a href="https://quiaencoremangelecoeurdelion.com/" target="_BLANK">🔗</a></li>
-            <li><span className="bold">SERS</span> - BTP <span className="italic">(Ajout d'un module de newsletter)</span> <a href="https://sers.eu/" target="_BLANK">🔗</a></li>
-            <li><span className="bold">Le Rustique</span> - Alimentaire <span className="italic">(Mise à jour du site pour le jeu de 2021)</span><a href="https://ensemble-nourrissons-nos-terres.fr/" target="_BLANK">🔗</a></li>
+            <li><span className="bold">Immium</span> - <span className="italic">Agence immobilière </span>- Refonte du site <a href="https://www.immium.com/" target="_BLANK">🔗</a></li>
+            <br/>
+            <li><span className="bold">Cœur De Lion</span> - <span className="italic"> Alimentaire </span>- Mise à jour du jeu "qui à encore manger le cœur de lion" pour 2021 avec une nouvelle mécanique de jeu <a href="https://quiaencoremangelecoeurdelion.com/" target="_BLANK">🔗</a></li>
+            <br/>
+            <li><span className="bold">Carte Bancaire</span> - <span className="italic"> Finance </span>- Correction de bug et ajout de fonctionnalité <a href="https://www.cartes-bancaires.com/" target="_BLANK">🔗</a></li>
+            <br/>
+            <li><span className="bold">Le Rustique</span> - <span className="italic"> Alimentaire </span>- Mise à jour du site pour le jeu de 2021 <a href="https://ensemble-nourrissons-nos-terres.fr/" target="_BLANK">🔗</a></li>
+            <br/>
+            <li><span className="bold">Saupiquet</span> -<span className="italic"> Alimentaire </span>- Création d'un jeu instant gagnant <a href="https://jeu-saupiquet.com/" target="_BLANK">🔗</a></li>
+            <br/>
+            <li><span className="bold">Sobieski</span> -<span className="italic"> Alimentaire </span>- Mise à jour du site pour le jeu de 2021 <a href="https://jeu-sobieski.com/" target="_BLANK">🔗</a> <span className="italic">(indisponible jusqu'a la sortie du jeu)</span></li>
           </ul>
         </div>
       </ChannelMessage>
