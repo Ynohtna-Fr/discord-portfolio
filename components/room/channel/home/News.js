@@ -9,6 +9,11 @@ export default function News ({ name }) {
             <p><img src="/img/emoji/hyperTada.gif" alt="GIF Hello" className="emoji-s"/> Finalisation de mon CV Discord !</p>
           </div>
       </ChannelMessage>
+      <ChannelMessage author="Anthony Adam" date="18/05/2021">
+          <div>
+            <p>J'ai rajouté un peu d'espace au niveau des projets. J'ai également rajouté de nouveaux projets. :) !</p>
+          </div>
+      </ChannelMessage>
     </div>
   )
 }
