@@ -15,7 +15,7 @@ export default function Recommandations ({ name }) {
             </li>
             <br/>
             <li>
-              <p><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> "Élève travailleur et motivé par le développement d'objet connectés."</p>
+              <p><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> "Élève travailleur et motivé par le développement d'objets connectés."</p>
               <p><img src="/img/emoji/arrow_right.svg" className="emoji-s" alt="flèche droite"/> M.Pfister & M.Zunino | Professeur d'ICN (Informatique et Création Numérique)</p>
             </li>
           </ul>

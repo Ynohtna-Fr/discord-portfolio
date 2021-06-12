@@ -14,7 +14,7 @@ export default function Legals () {
             <h2>ARTICLE 1 : L’éditeur </h2>
             <p>L’édition et la direction de la publication du site https://anthony-adam.fr est assurée par Anthony Adam conformément à la loi, mes éléments d’identification personnelle ont été communiqués à l'hébergeur.</p>
             <p>En cas de réclamation sur le contenu de ce site, commentaire ou publication, je vous propose de m’adresser un courrier électronique "contact@anthony-adam.fr".</p>
-            <p>a loi vous permet même de vous adresser directement à l’hébergeur sous réserve de l’article 6, I, 4° de la loi 2004-575 du 21 juin 2004 ("Le fait, pour toute personne, de présenter aux [hébergeurs du site] un contenu ou une activité comme étant illicite dans le but d’en obtenir le retrait ou d’en faire cesser la diffusion, alors qu’elle sait cette information inexacte, est puni d’une peine d’un an d’emprisonnement et de 15 000 EUR d’amende."). </p>
+            <p>La loi vous permet même de vous adresser directement à l’hébergeur sous réserve de l’article 6, I, 4° de la loi 2004-575 du 21 juin 2004 ("Le fait, pour toute personne, de présenter aux [hébergeurs du site] un contenu ou une activité comme étant illicite dans le but d’en obtenir le retrait ou d’en faire cesser la diffusion, alors qu’elle sait cette information inexacte, est puni d’une peine d’un an d’emprisonnement et de 15 000 EUR d’amende."). </p>
 
 
             <h2>ARTICLE 2 : L’hébergeur</h2>

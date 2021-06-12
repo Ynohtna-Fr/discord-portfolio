@@ -30,7 +30,7 @@ export default function ServerNavigation () {
           <ServerChannel channelName="📮》me-contacter" link="contact" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>
         </ServerCategory>
 
-        <ServerCategory name="╔▬▬ A propos de moi ▬▬╗" >
+        <ServerCategory name="╔▬▬ À propos de moi ▬▬╗" >
           <ServerChannel channelName="🤙》introduction" link="introduction" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>
           <ServerChannel channelName="💪》compétences" link="skills" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>
           <ServerChannel channelName="🎒》parcours" link="parcours" navigation={navigation} setNavigation={setNavigation} menuHandler={handleBurger}/>

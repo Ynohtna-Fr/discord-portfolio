@@ -10,7 +10,7 @@ export default function BulkInformation ({ name }) {
         <div>
           <p className="underline">Vous en voulez encore ? Voici quelques trucs en vrac me concernant :</p>
           <br/>
-          <p><span className="bold">Série préféré :</span> The Office</p>
+          <p><span className="bold">Série préférée :</span> The Office</p>
           <br/>
           <p><span className="bold">Film préféré :</span> OSS 117</p>
           <br/>

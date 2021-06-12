@@ -38,7 +38,7 @@ export default function Skills ({ name }) {
           <ul>
             <li>Celui qui passe partout : <span className="bold">React</span></li>
             <li>Celui que tout le monde déteste, mais qu'on aime quand même au fond : <span className="bold">PHP</span></li>
-            <li>Celui qui ma appris à aimer Javascript : <span className="bold">DiscordJS</span></li>
+            <li>Celui qui m'a appris à aimer Javascript : <span className="bold">DiscordJS</span></li>
             <li>Celui qui permet des prototypes rapides : <span className="bold">Bootstrap</span></li>
           </ul>
         </div>

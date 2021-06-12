@@ -11,7 +11,7 @@ export default function News ({ name }) {
       </ChannelMessage>
       <ChannelMessage author="Anthony Adam" date="18/05/2021">
           <div>
-            <p>J'ai rajouté un peu d'espace au niveau des projets. J'ai également rajouté de nouveaux projets. :) !</p>
+            <p>J'ai rajouté un peu d'espace au niveau des projets. J'en ai également rajouté de nouveaux. :) !</p>
           </div>
       </ChannelMessage>
     </div>
