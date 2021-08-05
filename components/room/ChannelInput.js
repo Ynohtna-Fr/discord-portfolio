@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useSetRecoilState } from 'recoil'
 import { sendState } from '../../recoil/atoms/send'
+import * as ackeeTracker from 'ackee-tracker'
 
 const handleTextChange = (e, setText) => {
   setText(e.target.value)
@@ -41,9 +42,26 @@ const sendMessage = (text, setText, setSendStatus) => {
   })
 }
 
+function handleInputClick (instance, hasAlreadyClicked) {
+  // the user already clicked on the input, so no need to trigger event
+  if (hasAlreadyClicked) return false;
+   instance.action('257403e8-f9fa-4714-8cb7-b05fdcd43d29', {
+     key: 'Click', value: 1
+   })
+}
+
 export default function ChannelInput ({path}) {
   const [text, setText] = useState('')
   const setSendStatus = useSetRecoilState(sendState)
+  let instance
+  let hasAlreadyClicked = false;
+  if (typeof window !== 'undefined') {
+     instance = ackeeTracker.create('https://stats.anthony-adam.fr', {
+      detailed: false,
+      ignoreLocalhost: false,
+      ignoreOwnVisits: false
+    })
+  }
 
   if (path === 'contact') {
     return (
@@ -51,7 +69,7 @@ export default function ChannelInput ({path}) {
         <div className="content_input--box">
           <div className="input_box--left">
             <img src="/img/send.svg" className="send" alt="add File button" onClick={() => handleSendClick(text, setText, setSendStatus)}/>
-            <input type="text" value={text} placeholder="Taper votre message ici !" onKeyDown={(e) => handleKeyPress(e, text, setText, setSendStatus)} onChange={(e) => handleTextChange(e, setText)}/>
+            <input type="text" value={text} placeholder="Taper votre message ici !" onClick={() => handleInputClick(instance, hasAlreadyClicked)} onKeyDown={(e) => handleKeyPress(e, text, setText, setSendStatus)} onChange={(e) => handleTextChange(e, setText)}/>
           </div>
           <div className="input_box--icons">
             <img src="/img/linkedin.svg" alt=""/>

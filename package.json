@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@tippyjs/react": "^4.2.4",
+    "ackee-tracker": "^5.1.0",
     "is-svg": "4.2.2",
     "laravel-mix": "^6.0.13",
     "next": "10.0.9",
