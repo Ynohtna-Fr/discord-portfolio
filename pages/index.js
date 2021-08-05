@@ -6,14 +6,16 @@ import { navigationState} from '../recoil/atoms/navigation'
 
 export default function Home() {
   const navigation = useRecoilValue(navigationState)
-  useAckee(navigation.path, {
-    server: 'https://stats.anthony-adam.fr',
-    domainId: '79c45307-311c-4080-8461-84e4d92fcb71'
-  }, {
-    detailed: false,
-    ignoreLocalhost: false,
-    ignoreOwnVisits: false
-  })
+  if (typeof window !== 'undefined') {
+    useAckee(navigation.path, {
+      server: 'https://stats.anthony-adam.fr',
+      domainId: '79c45307-311c-4080-8461-84e4d92fcb71'
+    }, {
+      detailed: false,
+      ignoreLocalhost: false,
+      ignoreOwnVisits: false
+    })
+  }
 
   console.log("           o                      o       o                                             \n" +
     "          <|>                    <|>     <|>                                            \n" +
