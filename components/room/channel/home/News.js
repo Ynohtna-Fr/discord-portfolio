@@ -14,6 +14,11 @@ export default function News ({ name }) {
             <p>J'ai rajouté un peu d'espace au niveau des projets. J'en ai également rajouté de nouveaux. :) !</p>
           </div>
       </ChannelMessage>
+      <ChannelMessage author="Anthony Adam" date="29/07/2021">
+        <div>
+          <p>C'est officiel ! Je m'en vais l'année prochaine à la Fac d'informatique (L3) pour suivre un cursus master en ingénierie ! <img src="/img/emoji/cat.gif" alt="GIF Hello" className="emoji-s"/></p>
+        </div>
+      </ChannelMessage>
     </div>
   )
 }

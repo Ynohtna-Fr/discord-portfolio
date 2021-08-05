@@ -35,6 +35,7 @@ export default function Education ({ name }) {
             <li><img src="/img/emoji/plane.svg" className="emoji-s" alt="emoji Sac à dos"/> <span className="italic">2015</span> - Brevet D'initatiation à l'aéronautique</li>
             <li><img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/> <span className="italic">2015</span> - Brevet des collèges - mention "assez bien"</li>
             <li><img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/> <span className="italic">2019</span> - Baccalauréat Économique & Social - Mention "Bien"</li>
+            <li><img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/> <span className="italic">2021</span> - DUT MMI (Métier du multimédia et de l'internet)</li>
           </ul>
         </div>
       </ChannelMessage>
