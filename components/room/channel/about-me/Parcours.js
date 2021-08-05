@@ -1,12 +1,26 @@
-import ChannelMessage from '../../ChannelMessage'
-import ChannelDefaultMessage from '../../ChannelDefaultMessage'
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
+import * as ackeeTracker from 'ackee-tracker'
+import ChannelMessage from '../../ChannelMessage'
+import ChannelDefaultMessage from '../../ChannelDefaultMessage'
+
+const handleEggs= (instance, type) => {
+  instance.action('65c815be-5800-4eda-a266-a21143f4cc6f', { key: type, value: 1 })
+}
 
 export default function Parcours ({ name }) {
+  let instance
+  if (typeof window !== 'undefined') {
+    instance = ackeeTracker.create('https://stats.anthony-adam.fr', {
+      detailed: false,
+      ignoreLocalhost: false,
+      ignoreOwnVisits: false
+    })
+  }
+
   return (
     <div>
-      <ChannelDefaultMessage name={ name } trigger="mouseenter focus click" description={<Tippy content={<iframe width="300" height="315"
+      <ChannelDefaultMessage name={ name } trigger="mouseenter focus click" description={<Tippy content={<iframe onMouseOver={() => handleEggs(instance, 'parkour')} width="300" height="315"
   src="https://www.youtube-nocookie.com/embed/0Kvw2BPKjz0"
   title="YouTube video player"
   frameBorder="0"

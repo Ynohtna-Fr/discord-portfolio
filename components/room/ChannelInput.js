@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useSetRecoilState } from 'recoil'
-import { sendState } from '../../recoil/atoms/send'
 import * as ackeeTracker from 'ackee-tracker'
+import { sendState } from '../../recoil/atoms/send'
 
 const handleTextChange = (e, setText) => {
   setText(e.target.value)
@@ -50,6 +50,10 @@ function handleInputClick (instance, hasAlreadyClicked) {
    })
 }
 
+const handleLink = (instance, link) => {
+  instance.action('6058f56c-55c2-473b-8af2-4835fe020c07', { key: link, value: 1 })
+}
+
 export default function ChannelInput ({path}) {
   const [text, setText] = useState('')
   const setSendStatus = useSetRecoilState(sendState)
@@ -72,9 +76,15 @@ export default function ChannelInput ({path}) {
             <input type="text" value={text} placeholder="Taper votre message ici !" onClick={() => handleInputClick(instance, hasAlreadyClicked)} onKeyDown={(e) => handleKeyPress(e, text, setText, setSendStatus)} onChange={(e) => handleTextChange(e, setText)}/>
           </div>
           <div className="input_box--icons">
-            <img src="/img/linkedin.svg" alt=""/>
-            <img src="/img/github.svg" alt=""/>
-            <img src="/img/tel.svg" alt=""/>
+            <a href="https://www.linkedin.com/in/anthony-adam/" target="_BLANK" onClick={() => handleLink(instance, 'linkedin')}>
+              <img src="/img/linkedin.svg"/>
+            </a>
+            <a href="https://github.com/Ynohtna-Fr" target="_BLANK" onClick={() => handleLink(instance, 'github')}>
+              <img src="/img/github.svg"/>
+            </a>
+            <a href="tel:0652728018" onClick={() => handleLink(instance, 'tel')}>
+              <img src="/img/tel.svg"/>
+            </a>
           </div>
         </div>
       </div>
@@ -88,13 +98,13 @@ export default function ChannelInput ({path}) {
             <p>Vous ne pouvez envoyer de message</p>
           </div>
           <div className="input_box--icons">
-            <a href="https://www.linkedin.com/in/anthony-adam/" target="_BLANK">
+            <a href="https://www.linkedin.com/in/anthony-adam/" target="_BLANK" onClick={() => handleLink(instance, 'linkedin')}>
               <img src="/img/linkedin.svg"/>
             </a>
-            <a href="https://github.com/Ynohtna-Fr" target="_BLANK">
+            <a href="https://github.com/Ynohtna-Fr" target="_BLANK" onClick={() => handleLink(instance, 'github')}>
               <img src="/img/github.svg"/>
             </a>
-            <a href="tel:0652728018">
+            <a href="tel:0652728018" onClick={() => handleLink(instance, 'tel')}>
               <img src="/img/tel.svg"/>
             </a>
           </div>
