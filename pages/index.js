@@ -1,28 +1,21 @@
+import useAckee from 'use-ackee'
+import { useRecoilValue } from 'recoil'
 import ServerNavigation from '../components/navigation/ServerNavigation'
 import ChannelContent from '../components/room/ChannelContent'
-import { useRouter } from 'next/router'
-import { useEffect } from 'react'
-import useAckee from 'use-ackee'
+import { navigationState} from '../recoil/atoms/navigation'
 
 export default function Home() {
-
-  const router = useRouter()
-  useEffect(() => {
-    const handleRouteChange = (url) => {
-      useAckee(url, {
-        server: 'https://stats.anthony-adam.fr',
-        domainId: '79c45307-311c-4080-8461-84e4d92fcb71'
-      }, {
-        detailed: false,
-        ignoreLocalhost: false,
-        ignoreOwnVisits: false
-      })
-    }
-    router.events.on('routeChangeComplete', handleRouteChange)
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
+  const navigation = useRecoilValue(navigationState)
+  if (typeof window !== 'undefined') {
+    useAckee(navigation.path, {
+      server: 'https://stats.anthony-adam.fr',
+      domainId: '79c45307-311c-4080-8461-84e4d92fcb71'
+    }, {
+      detailed: false,
+      ignoreLocalhost: false,
+      ignoreOwnVisits: false
+    })
+  }
 
   console.log("           o                      o       o                                             \n" +
     "          <|>                    <|>     <|>                                            \n" +
