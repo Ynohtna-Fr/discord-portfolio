@@ -1,6 +1,21 @@
+import * as ackeeTracker from 'ackee-tracker'
 import ChannelMessage from '../../ChannelMessage'
 import ChannelDefaultMessage from '../../ChannelDefaultMessage'
+
+const handleLink = (instance, link) => {
+  instance.action('6058f56c-55c2-473b-8af2-4835fe020c07', { key: link, value: 1 })
+}
+
 export default function Noteuniv ({ name }) {
+  let instance
+  if (typeof window !== 'undefined') {
+    instance = ackeeTracker.create('https://stats.anthony-adam.fr', {
+      detailed: false,
+      ignoreLocalhost: false,
+      ignoreOwnVisits: false
+    })
+  }
+
   return (
     <div>
       <ChannelDefaultMessage name={ name } description="Fini la paperasse désuète !"/>
@@ -25,8 +40,8 @@ export default function Noteuniv ({ name }) {
             C'est néanmoins une <span className="bold">aventure passionnante </span>qui est toujours d'actualité !
           </p>
           <br/>
-          <p className="italic">Vous pouvez retrouver le code source de NoteUniv sur ce repo Github <a href="https://github.com/NoteUniv">https://github.com/NoteUniv</a> et le lien vers la vidéo de présentation ici : <a
-            href="http://hacketafac.unistra.fr/projects/noteuniv">http://hacketafac.unistra.fr/projects/noteuniv/</a></p>
+          <p className="italic">Vous pouvez retrouver le code source de NoteUniv sur ce repo Github <a href="https://github.com/NoteUniv" onClick={() => handleLink(instance, 'github_noteuniv')}>https://github.com/NoteUniv</a> et le lien vers la vidéo de présentation ici : <a
+            href="http://hacketafac.unistra.fr/projects/noteuniv" onClick={() => handleLink(instance, 'hackTaFac')}>http://hacketafac.unistra.fr/projects/noteuniv/</a></p>
         </div>
       </ChannelMessage>
     </div>

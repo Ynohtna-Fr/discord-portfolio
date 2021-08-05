@@ -1,6 +1,22 @@
+import * as ackeeTracker from 'ackee-tracker'
 import ChannelMessage from '../../ChannelMessage'
 import ChannelDefaultMessage from '../../ChannelDefaultMessage'
+
+const handleLink = (instance, link) => {
+  instance.action('6058f56c-55c2-473b-8af2-4835fe020c07', { key: link, value: 1 })
+}
+
 export default function Recommandations ({ name }) {
+
+  let instance
+  if (typeof window !== 'undefined') {
+    instance = ackeeTracker.create('https://stats.anthony-adam.fr', {
+      detailed: false,
+      ignoreLocalhost: false,
+      ignoreOwnVisits: false
+    })
+  }
+
   return (
     <div>
       <ChannelDefaultMessage name={ name } description="Et encore j'ai pas tout mis"/>
@@ -22,7 +38,7 @@ export default function Recommandations ({ name }) {
         </div>
       </ChannelMessage>
       <ChannelMessage author="Anthony Adam" date="Hier à 08:39">
-          <p>N'hésitez pas à allez voir <a href="https://www.linkedin.com/in/anthony-adam/" target="_blank"> mon LinkedIn</a> pour voir plus !</p>
+          <p>N'hésitez pas à allez voir <a href="https://www.linkedin.com/in/anthony-adam/" target="_blank" onClick={() => handleLink(instance, 'linkedin')}> mon LinkedIn</a> pour voir plus !</p>
       </ChannelMessage>
     </div>
   )
