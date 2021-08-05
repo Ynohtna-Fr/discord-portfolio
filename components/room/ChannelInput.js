@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useSetRecoilState } from 'recoil'
-import * as ackeeTracker from 'ackee-tracker'
 import { sendState } from '../../recoil/atoms/send'
 
 const handleTextChange = (e, setText) => {
