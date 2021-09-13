@@ -74,6 +74,16 @@ export default function Parcours ({ name }) {
           </div>
         </div>
       </ChannelMessage>
+      <ChannelMessage author="Anthony Adam" date="13/09/2021">
+        <div className="parcours">
+          <div>
+            <img src="/img/emoji/backpack.svg" className="emoji-s" alt="emoji Sac à dos"/>
+            <p className="bold">L3-CMI IIRVIJ</p>
+            <p className="italic">2021-2023</p>
+            <p>Cursus master ingéniérie. <br/>Informatique : Image, Réalité Virtuelle, Interactions et Jeux</p>
+          </div>
+        </div>
+      </ChannelMessage>
     </div>
   )
 }

@@ -36,6 +36,12 @@ export default function Novembre ({ name }) {
             <li><span className="bold">Saupiquet</span> -<span className="italic"> Alimentaire </span>- Création d'un jeu instant gagnant <a href="https://jeu-saupiquet.com/" target="_BLANK" onClick={() => handleLink(instance, 'Saupiquet')}>🔗</a></li>
             <br/>
             <li><span className="bold">Sobieski</span> -<span className="italic"> Alimentaire </span>- Mise à jour du site pour le jeu de 2021 <a href="https://jeu-sobieski.com/" target="_BLANK" onClick={() => handleLink(instance, 'Sobieski')}>🔗</a></li>
+            <br/>
+            <li><span className="bold">Forum avenir</span> -<span className="italic"> Associatif </span>- Création du site <a href="https://forum-avenir.com/" target="_BLANK" onClick={() => handleLink(instance, 'forum-avenir')}>🔗</a></li>
+            <br/>
+            <li><span className="bold">Jeux Entendre</span> -<span className="italic"> santé </span>- Création de la landing page et du jeu pour leurs partenariat avec un film <a href="#" target="_BLANK" onClick={() => handleLink(instance, 'entendre')}>🔗</a></li>
+            <br/>
+            <li><span className="bold">ROT incendie</span> -<span className="italic"> Magasin </span>- Création du nouveau site <a href="https://rot-incendie.com/" target="_BLANK" onClick={() => handleLink(instance, 'rot')}>🔗</a></li>
           </ul>
         </div>
       </ChannelMessage>
