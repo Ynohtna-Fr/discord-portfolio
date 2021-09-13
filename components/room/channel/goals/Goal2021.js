@@ -12,8 +12,8 @@ export default function Goal2021 ({ name }) {
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Continuer mes études dans l'ingénierie <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Refaire mon CV en ligne <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Approfondir React <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Pousser DiscAds en production</li>
-            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Partir à Lemnos <span className="italic">(Plus connu sous le nom d'Altis)</span></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Pousser DiscAds en production <img src="/img/emoji/no-check.png" className="emoji-s" alt="emoji non validé"/></li>
+            <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Partir à Lemnos <span className="italic">(Plus connu sous le nom d'Altis)</span><img src="/img/emoji/no-check.png" className="emoji-s" alt="emoji non validé"/></li>
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Apprendre du webAR <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/></li>
             <li><img src="/img/emoji/pushpin.svg" className="emoji-s" alt="emoji épingle"/> Rester en vie <span className="italic">(Covid tout ça tout ça)</span> <img src="/img/emoji/check.png" className="emoji-s" alt="emoji validé"/> <span className="italic">(Pour l'instant)</span></li>
           </ul>
